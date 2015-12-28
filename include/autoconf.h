@@ -356,14 +356,14 @@
 /*
  * Debug Related Config
  */
-#define DBG	1
+#define DBG	0
 
-#define CONFIG_DEBUG /* DBG_871X, etc... */
+//#define CONFIG_DEBUG /* DBG_871X, etc... */
 //#define CONFIG_DEBUG_RTL871X /* RT_TRACE, RT_PRINT_DATA, _func_enter_, _func_exit_ */
 
-#define CONFIG_PROC_DEBUG
+//#define CONFIG_PROC_DEBUG
 
-#define DBG_CONFIG_ERROR_DETECT
+//#define DBG_CONFIG_ERROR_DETECT
 //#define DBG_CONFIG_ERROR_DETECT_INT
 //#define DBG_CONFIG_ERROR_RESET
 
@@ -382,7 +382,7 @@
 //#define DBG_RX_SEQ
 //#define DBG_RX_SIGNAL_DISPLAY_PROCESSING
 //#define DBG_RX_SIGNAL_DISPLAY_SSID_MONITORED "jeff-ap"
-#define DBG_RX_SIGNAL_DISPLAY_RAW_DATA
+//#define DBG_RX_SIGNAL_DISPLAY_RAW_DATA
 //#define DBG_NOISE_MONITOR
 
 //#define DBG_TX_POWER_IDX

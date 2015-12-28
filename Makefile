@@ -18,7 +18,7 @@ EXTRA_CFLAGS += -Wno-error=date-time
 
 EXTRA_CFLAGS += -I$(src)/include
 
-#EXTRA_LDFLAGS += --strip-debug
+EXTRA_LDFLAGS += --strip-debug
 
 CONFIG_AUTOCFG_CP = n
 
